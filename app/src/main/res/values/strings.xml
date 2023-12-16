@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AppDevFinals</string>
+    <string name="name">Luis Mario T. Bandivas</string>
+    <string name="year_course">BSCS-DS 3a</string>
+    <string name="fav">My favorite anime</string>
+    <string name="landing_text">This app is created as a project for a mobile development subject.</string>
+    <string name="guess">Guess a number between 1 and 100</string>
+
+    <string-array name="anime_title">
+        <item>Death Note</item>
+        <item>Naruto Shippuden</item>
+        <item>Pokemon</item>
+        <item>One Piece</item>
+        <item>Hitman Reborn</item>
+    </string-array>
+
+    <string name="vision">Laguna University shall be a socially responsive educational institution of choice providing holistically developed individuals in the Asia-Pacific Region.</string>
+    <string name="mission">Laguna University is committed to produce academically prepared and technically skilled individuals who are socially and morally upright.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

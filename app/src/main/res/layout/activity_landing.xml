@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".Landing"
+    android:background="@drawable/bg3">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Welcome"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/landing_text"
+            android:textAlignment="center"
+            android:alpha="0.9"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <FrameLayout
+        android:id="@+id/framefrag"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_alignParentBottom="true">
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/btn_mission"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/framefrag"
+        android:layout_below="@+id/constraintLayout"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:text="Mission"
+        android:textColor="@color/white"
+        android:backgroundTint="#647764"/>
+
+    <Button
+        android:id="@+id/btn_vision"
+        android:layout_width="100dp"
+        android:backgroundTint="#647764"
+        android:layout_height="50dp"
+        android:layout_above="@+id/framefrag"
+        android:layout_below="@+id/constraintLayout"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="50dp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="25dp"
+        android:text="Vision" />
+
+</RelativeLayout>
+

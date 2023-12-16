@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/opt_guess"
+        android:title="Guessing game" />
+
+    <item android:id="@+id/opt_abtme"
+        android:title="About me" />
+
+    <item android:id="@+id/opt_theme"
+        android:title="Theme">
+        <menu>
+            <item android:id="@+id/sub_light"
+                android:title="Light Theme"/>
+
+            <item android:id="@+id/sub_dark"
+                android:title="Dark Theme"/>
+        </menu>
+    </item>
+
+</menu>
